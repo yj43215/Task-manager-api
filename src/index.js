@@ -10,7 +10,7 @@ const taskroute =require('./routers/task')
 const app =express()
 port = process.env.PORT 
 
-app.get('/',(req,res){
+app.get('/',(req,res)=>{
     res.send("MKC")
 })
 // app.use((req,res,next)=>{
